@@ -125,10 +125,11 @@ pnpm run pm2
 pm2 startup
 pm2 save
 ```
-## 專案結構
+## 📜專案結構
 
 ### 🌲根目錄
 ```
+/
 ├── .env                      ＃ 環境變數設定
 ├── .prettierignore           ＃ 格式化設定檔案
 ├── .prettierrc               ＃ 格式化設定檔案
@@ -143,7 +144,7 @@ pm2 save
 
 ### 🎩後台前端
 ```
-/Blog_web/packages/admin
+/packages/admin
 ├── .eslintignore             ＃ eslint設定檔
 ├── .eslintrc.js              ＃ eslint設定檔
 ├── .gitignore                
@@ -170,7 +171,7 @@ pm2 save
 
 ### 🔮前台前端
 ```
-/Blog_web/packages/client
+/packages/client
 ├── .eslintignore                 # ESLint 忽略檔案，包含不需要 lint 檢查的檔案和目錄
 ├── .eslintrc.js                  # ESLint 組態檔案，定義了程式碼格式規則
 ├── .gitignore                    # Git 忽略檔案，包含不需要納入版本控制的檔案和目錄
@@ -213,7 +214,7 @@ pm2 save
 
 ### 💻後端伺服器
 ```
-/Users/bill/Documents/Blog_web/packages/server
+/packages/server
 ├── .eslintignore                 # ESLint 忽略檔，設定不需要進行程式碼檢查的檔案和目錄
 ├── .eslintrc.js                  # ESLint 配置檔，設定程式碼格式和規則
 ├── .gitignore                    # Git 忽略檔，設定不需要加入版本控制的檔案和目錄
@@ -236,9 +237,9 @@ pm2 save
 └── tslint.json                   # TSLint 配置檔，用於 TypeScript
 ```
 
-## 🔧設定
+### 🔧設定
 ```
-/Blog_web/packages/config
+/packages/config
 ├── .gitignore                    # Git 忽略檔，設定不需要加入版本控制的檔案和目錄
 ├── README.md                     # 專案的說明文件
 ├── lib                           # 編譯後的程式碼目錄
