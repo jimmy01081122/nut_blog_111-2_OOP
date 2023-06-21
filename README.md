@@ -1,6 +1,6 @@
 # NTU_Blog
 
-## 簡介
+## 🪝簡介
 
 NTU_Blog 是一個面向個人的集成文章發表、頁面創建、知識小冊等功能的 CMS 系統。涉及到的技術如下：
 
@@ -9,7 +9,7 @@ NTU_Blog 是一個面向個人的集成文章發表、頁面創建、知識小�
 - `nest.js`：服務端框架
 - `AliyunOSS`：對象儲存
 
-## 功能點
+## 💎功能點
 
 - 文章管理
 - 頁面管理
@@ -20,7 +20,7 @@ NTU_Blog 是一個面向個人的集成文章發表、頁面創建、知識小�
 - 文件管理
 - 系統設置
 
-### 資料庫
+## 🛢️資料庫
 
 首先安裝 `MySQL`，推薦使用 docker 進行安裝。
 
@@ -37,7 +37,7 @@ mysql -u root -p;
 CREATE DATABASE  `wipi` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
-### 本地運行
+## 🚀本地運行
 
 安裝項目依賴。
 
@@ -61,11 +61,11 @@ pnpm run dev
 首次啟動，默認創建管理員用戶：admin，密碼：admin（可在 `.env` 文件中進行修改）。
 [PS] 如服務端配置啟動失敗，請先確認 MySQL 的配置是否正確，配置文件在 `.env`。
 
-### 系統設置
+## 🛰️系統設置
 
 初次啟動時，需要在後台進行系統設置。隨著內容的豐富，頁面內容也會豐富起來。
 
-### 配置文件
+## 🧷配置文件
 
 默認載入 `.env` 文件，生產環境會嘗試載入 `.env.prod` 文件。
 
@@ -105,7 +105,7 @@ GITHUB_CLIENT_ID=0 # Github OAuth 登錄 Id
 GITHUB_CLIENT_SECRET=0 # Github OAuth 登錄 Secret
 ```
 
-### 項目部署
+## ⚙️項目部署
 
 生產環境部署的腳本如下：
 
@@ -127,7 +127,7 @@ pm2 save
 ```
 ## 📜專案結構
 
-### 🌲根目錄
+### 根目錄
 ```
 /
 ├── .env                      ＃ 環境變數設定
@@ -142,7 +142,7 @@ pm2 save
 └── scripts                   ＃ 自動化佈署命令檔
 ```
 
-### 🎩後台前端
+### 後台前端
 ```
 /packages/admin
 ├── .eslintignore             ＃ eslint設定檔
@@ -169,7 +169,7 @@ pm2 save
 └── types                     ＃ 存放自定義type
 ```
 
-### 🔮前台前端
+### 前台前端
 ```
 /packages/client
 ├── .eslintignore                 # ESLint 忽略檔案，包含不需要 lint 檢查的檔案和目錄
@@ -212,7 +212,7 @@ pm2 save
    └── index.d.ts                 # TypeScript 類型定義檔案
 ```
 
-### 💻後端伺服器
+### 後端伺服器
 ```
 /packages/server
 ├── .eslintignore                 # ESLint 忽略檔，設定不需要進行程式碼檢查的檔案和目錄
@@ -237,7 +237,7 @@ pm2 save
 └── tslint.json                   # TSLint 配置檔，用於 TypeScript
 ```
 
-### 🔧設定
+### 設定
 ```
 /packages/config
 ├── .gitignore                    # Git 忽略檔，設定不需要加入版本控制的檔案和目錄
@@ -255,9 +255,19 @@ pm2 save
    ├── i18n.ts                    # 國際化配置的原始 TypeScript 檔
    └── index.ts                   # 主索引的原始 TypeScript 檔，匯出 src 目錄中的模組
 ```
-## 📂資料
+## 📂使用套件與工具
 
-- next.js 原始碼：https://github.com/vercel/next.js
-- next.js 文件：https://nextjs.org/
-- nest.js 原始碼：https://github.com/nestjs/nest
-- nest.js 文件：https://nestjs.com/
+- next.js 前端框架
+- nest.js 後端框架
+- pnpm 套件管理
+- concurrently 多線程指令工具
+- git 版本管理
+- prettier 程式碼格式管理
+- ESLint 程式碼格式管理
+- nginx 反向代理伺服器
+- docker 伺服器部署
+- typeScript 型別版的js
+- mysql 資料庫
+- 阿里雲 雲端儲存空間
+- Google Analytics 流量分析
+- i18n 多國語言管理套件 
