@@ -1,7 +1,14 @@
-# NTU_Blog
+# NTU_Blog 111-2 OOP Final_project
 
 ## 🪝簡介
-
+### This is a project that collaborate with team members : 
+- 軟體架構 設計整體系統架構。 組員共同討論開發(100%)
+- 資料庫 創建資料庫 陳琪予(50%)、鄧志彥(50%)
+- 前端開發 用戶認證、資料庫連結、API 組員共同討論開發(100%)
+- 後端開發 實現與前端連結 組員共同討論開發(100%)
+- 介面設計 美觀及用戶體驗 報告 PPT、report、demo 其他(Optional)
+- 組員共同討論開發(100%)
+- 組員共編完成(100%)
 NTU_Blog 是一個面向個人的集成文章發表、頁面創建、知識小冊等功能的 CMS 系統。涉及到的技術如下：
 
 - `MySQL`：數據儲存
