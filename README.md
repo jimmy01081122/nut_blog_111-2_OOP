@@ -1,5 +1,5 @@
 # NTU_Blog 111-2 OOP Final_project
-
+## 組員 鄧志彥 陳旗予 張鈞民 簡郁庭
 ## 🪝簡介
 ### This is a project that collaborate with team members : 
 - 軟體架構 設計整體系統架構。 組員共同討論開發(100%)
